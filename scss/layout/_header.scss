@@ -1,0 +1,58 @@
+.header {
+	background: url('../img/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	margin-bottom: 191px;
+	height: 66px;
+	width: 100%;
+	
+}
+.logo{
+	margin-left: 115px;
+}
+.menu {
+	margin-right: 80px;
+	li {
+		display: inline-flex;
+		margin-right: 35px;
+		position: relative;
+	}
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;	
+	}
+}
+.header_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.title{
+		display: -webkit-inline-flex;
+		display: -moz-inline-flex;
+		display: -ms-inline-flex;
+		display: -o-inline-flex;
+		display: inline-flex;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	h1{
+		color: white;
+	}
+	.title_creativia {
+		color: red;
+	}
+}
+
+
+
+
+
+
